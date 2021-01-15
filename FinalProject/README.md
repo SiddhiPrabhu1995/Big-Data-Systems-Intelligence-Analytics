@@ -74,17 +74,25 @@ https://commonvoice.mozilla.org/en/datasets
 ### 1. Historical Recording Analysis
 
 Step 1:- Select file from dropdown to Transcribe
+
 Step 2:- Click on "View Most Recently Transcribed file" to view trascribed file
+
 Step 3:- Enter File name from Step2 to Masking Most Recently Transcribed file
+
 Step 4:- Click on "View Masked Data" to View Most Recently Masked File Output
+
 Step 5:- Enter file name from Step4 to Analyze Sentiment of Most Recently Masked File
+
 Step 6:- Enter file name from Step5 to Converting Text to Audio of Most Recent Masked File
+
 Step 7:- Click on "Download button" to download Most Recent Text-To-Audio Recording
 
 ### 2. FeedBack Form
 
 Step 1:- Go to Feedback tab 
+
 Step 2:- Enter Employee Name, Email, Subject and Message
+
 Step 3:- Click on "Submit" button to Send the email to the employee
 
 ### 3. Transcribe: Real-Time Call Recordings Analysis

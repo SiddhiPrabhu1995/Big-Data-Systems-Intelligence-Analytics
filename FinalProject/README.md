@@ -131,13 +131,11 @@ Step 6:- Click on "Download" Button to download call Recording of the Recent Rea
 
 ### 5. Analytics
 
-#### Dashboards:
-
-Tableau Dashboard:
+#### Tableau Dashboard:
 
 <img width="712" alt="Dashboard 1" src="https://user-images.githubusercontent.com/57429405/104777027-0602ad80-5749-11eb-8ba3-2b52ccb512b5.png">
 
-QuickSight Dashboard:
+#### QuickSight Dashboard:
 
 <img width="1203" alt="Quicksight" src="https://user-images.githubusercontent.com/55570382/102640005-d9e31500-4127-11eb-8cca-5926b80f4fe0.png">
 

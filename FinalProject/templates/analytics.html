@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang=”en”>
+
+    <head>
+        <meta charset=”utf-8″>
+        <title>Sentiment Analysis</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   
+        <style type="text/css">
+           
+              h3,h4,h6 {
+               
+
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    text-align: justify;
+
+                    font-size: 20px;
+                    color: #19033b;
+                    text-align: center;
+                 } 
+         
+      
+                 h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+                text-align: center;
+            }
+            
+            body{
+
+                background-color: rgb(227, 228, 158);
+            }
+       
+
+       
+             </style>
+   
+   
+   
+   
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" style="opacity: 90%">
+            
+            <a class="navbar-brand" href="#" style="padding-left: 20px;padding-right: 20px">Sentiment Analysis</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/authuser">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/historicalrecordings">Historical Recording Analysis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/reatimeanalysis">Real Time Analysis</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/analytics">Analytics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/form">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/logout">Logout</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            </nav>
+
+             <!-- QuickSight -->
+       <br><br>
+       <h1>View Amazon QuickSight Sentiment Analysis Report <a href="https://raw.githubusercontent.com/samarthhadawale/CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master/main/Final%20Project/Images/Quicksight.png" target="_blank" rel="noopener noreferrer">Please Click on this link</a>.</h1>
+
+        
+        <div class="jumbotron">
+            
+            
+    <div>
+
+        <h6>Our Analysis analyzes the call recordings between employees and customers and evaluates tone, 
+        intent & emotions behind each call.
+
+    <br>  <br>        
+    We are performing Sentiment analysis by categorizing the customers into four different segments 
+    such as Positive, Negative, Neutral and Mixed sentiments.
+    <br>   <br>       
+    Our Dataset comprised of 500+ call recordings between customer and employee from which 34% of the calls had Positive
+    , 27% had Negative, 32% had Neutral and 7% had Mixed sentiments.
+    <br><br>  
+    Employee 6 and Employee 10 are the highest performing employees with each of them attending 69 calls approximately.
+    Employee 10 is top performer with the highest amount of positive sentiment calls(28).
+    <br><br>  
+     Out of 4 different categories Positive sentiment is the category with highest count(95) among Male whereas neutral sentiment is the 
+     category with highest count(75) among Female.
+     <br>  <br>  
+    </h6>
+
+
+
+            </div>
+            <hr>
+            
+            
+            <br><br>
+
+
+            <h1>Tableau Sentiment Analysis Report</h1>
+            <!-- new -->
+            <div class='tableauPlaceholder' id='viz1608236647093' style='position: relative;  border-radius: 20px; margin-left: 250px'>
+                <noscript>
+                <a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bi&#47;BigDataFinal_16082339565680&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
+                <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BigDataFinal_16082339565680&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bi&#47;BigDataFinal_16082339565680&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1608236647093');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1424px';vizElement.style.height='1127px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1424px';vizElement.style.height='1127px';} else { vizElement.style.width='100%';vizElement.style.height='2877px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+            
+       
+
+    </body>
+
+</html>

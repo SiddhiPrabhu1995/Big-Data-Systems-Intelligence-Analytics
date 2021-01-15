@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	
+	<title>Historical Recording Analysis</title>
+
+    <script language="JavaScript" type="text/javascript" src="static/js/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="static/css/bootstrap-grid.min.css" />
+	<script language="JavaScript" type="text/javascript" src="static/js/bootstrap.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="static/js/jquery-ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="static/css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="static/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+
+	<style type="text/css">
+		* {
+		  margin: 0;
+		  padding: 0;
+		  list-style: none;
+		  vertical-align: baseline;
+		}
+
+		div {
+		  position: relative;
+		  z-index: 2;
+		}
+
+		body {
+		  background-color: #333;
+		  color: #333;
+		  font-family: 'Raleway', sans-serif;
+          font-weight: 500;
+          background-repeat: inherit;
+            background-color: white;
+            height: 600px;
+		}
+
+		.quote-box {
+		  border-radius: 10px;
+		  position: relative;
+		  margin: 8% auto auto auto;
+		  width: 70vw;
+		  max-width: 70vw;
+		  padding: 40px 35px;
+		  display: table;
+		  background-color: #fff;
+        }
+        
+        .form-group{
+
+             font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .float-left-child {
+             float: inline-block;
+             font-family: Georgia, 'Times New Roman', Times, serif;
+            
+        }
+
+        h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+                text-align: center;
+            }
+        
+        .select{
+            font-size: 30px;
+            height: 30px;
+        }
+
+
+
+        h4,h3{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+
+        }
+	</style>
+</head>
+<body style="background-image: url(https://raw.githubusercontent.com/samarthhadawale/CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master/main/Final%20Project/Images/chat.jpg)">
+     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" style="opacity: 90%">
+            
+    <a class="navbar-brand" href="#" style="padding-left: 20px;padding-right: 20px">Sentiment Analysis</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="/authuser">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/historicalrecordings">Historical Recording Analysis</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/reatimeanalysis">Real Time Analysis</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/analytics">Analytics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/form">Feedback</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/logout">Logout</a>
+            </li>
+            
+        </ul>
+    </div>
+    </nav>
+
+    <div class="quote-box" style="border: solid 2px grey;">
+        <h1>Transcribe: Historical Call Recordings Analysis</h1>
+
+        <h4>Select Files to Transcribe</h4>
+
+        <h2 style="font-weight: 100;"></h2>
+        <div class="row">
+            <div class = "col-md-6">
+            <form id="transcribe" >
+
+                
+                <div class="float-left-child" >
+                <!-- Employee 1 -->     
+                    <br/><br/>
+                    <label for="autocomplete"><h3>Employee 1 </h3></label>
+                    
+                    <select name="files" id="file-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="1">0638 (mp3cut.net) (1).wav</option>
+                        <option value="2">0638 (mp3cut.net).wav</option>
+                        <option value="3">4065 (mp3cut.net) (1).wav</option>
+                        <option value="4">4065 (mp3cut.net) (2).wav</option>
+                        <option value="5">4065 (mp3cut.net) (3).wav</option>
+                        <option value="6">4065 (mp3cut.net) (4).wav</option>
+                    </select>
+
+                    </div>
+
+
+                    <button type="submit" class="btn btn-outline-success">Transcribe File</button>               
+                               
+                 </form>  
+                 <div id="transInputfiles"></div>     
+                <br/><br/>
+
+                 <!-- Employee 2 -->
+                <form id="transcribe1" >
+                    <div class="float-left-child" >
+                        
+                   
+                        <label for="autocomplete"><h3>Employee 2 </h3></label>
+                        <select name="files" id="file-select1">
+                            <option value="">--Please choose an option--</option>
+                            <option value="11">4065 (mp3cut.net).wav</option>
+                            <option value="21">4074 (mp3cut.net) (1).wav</option>
+                            <option value="31">4074 (mp3cut.net) (2).wav</option>
+                            <option value="41">4074 (mp3cut.net) (3).wav</option>
+                            <option value="51">4074 (mp3cut.net) (4).wav</option>
+                            <option value="61">4074 (mp3cut.net).wav</option>
+                        </select>
+
+                        </div>
+                        <button type="submit" class="btn btn-outline-success">Transcribe File</button>
+                </form>
+                <div id="transInputfiles1"></div> 
+                
+                <br/><br/>
+
+        <form id="transcribe2" >
+			<div class="form-group" >
+				
+                <!-- Employee 3 -->
+                <label for="autocomplete"><h3>Employee 3 </h3></label>
+                <select name="files" id="file-select2">
+                    <option value="">--Please choose an option--</option>
+                    <option value="1">4077 (mp3cut.net) (1).wav</option>
+                    <option value="2">4077 (mp3cut.net) (2).wav</option>
+                    <option value="3">4077 (mp3cut.net) (3).wav</option>
+                    <option value="4">4077 (mp3cut.net) (4).wav</option>
+                    <option value="5">4077 (mp3cut.net).wav</option>
+                    <option value="6">4092 (mp3cut.net) (1).wav</option>
+                </select>
+
+				
+			</div>
+            <button type="submit" class="btn btn-outline-success">Transcribe File</button>      
+        </form>
+
+        <div id="transInputfiles2"></div> 
+        <br/><br/>
+
+        <!-- Employee 4 -->
+        <form id="transcribe3" >
+			<div class="form-group" >
+				
+                
+                <label for="autocomplete"><h3>Employee 4 </h3></label>
+                <select name="files" id="file-select3">
+                    <option value="">--Please choose an option--</option>
+                    <option value="1">4092 (mp3cut.net) (2).wav</option>
+                    <option value="2">4092 (mp3cut.net) (3).wav</option>
+                    <option value="3">4092 (mp3cut.net) (4).wav</option>
+                    <option value="4">4092 (mp3cut.net).wav</option>
+                    <option value="5">4093 (mp3cut.net) (1).wav</option>
+                    <option value="6">4093 (mp3cut.net) (2).wav</option>
+                </select>
+
+				
+			</div>
+            <button type="submit" class="btn btn-outline-success">Transcribe File</button>	
+        </form>
+        <div id="transInputfiles3"></div> 
+        
+<!-- Employee 5 -->
+        <form id="transcribe4" >
+			<div class="form-group" >
+				
+                <br/><br/>
+                <label for="autocomplete"><h3>Employee 5 </h3></label>
+                <select name="files" id="file-select4">
+                    <option value="">--Please choose an option--</option>
+                    <option value="1">4093 (mp3cut.net) (3).wav</option>
+                    <option value="2">4093 (mp3cut.net) (4).wav</option>
+                    <option value="3">4093 (mp3cut.net).wav</option>
+                    <option value="4">4104 (mp3cut.net) (1).wav</option>
+                    <option value="5">4104 (mp3cut.net) (2).wav</option>
+                    <option value="6">4104 (mp3cut.net) (3).wav</option>
+                </select>
+
+				
+			</div>
+			<button type="submit" class="btn btn-outline-success">Transcribe File</button>
+        </form>
+        <div id="transInputfiles4"></div> 
+        <br/><br/>
+
+    </div>
+
+    <div class="col-md-6">
+
+         <!-- Employee 6 -->  
+        <form id="transcribe5" >
+			<div class="form-group" >
+				
+                <br/><br/>
+                <label for="autocomplete"><h3>Employee 6 </h3></label>
+                <select name="files" id="file-select5">
+                    <option value="">--Please choose an option--</option>
+                    <option value="1">4104 (mp3cut.net) (4).wav</option>
+                    <option value="2">4104 (mp3cut.net).wav</option>
+                    <option value="3">4112 (mp3cut.net) (1).wav</option>
+                    <option value="4">4112 (mp3cut.net) (2).wav</option>
+                    <option value="5">4112 (mp3cut.net) (3).wav</option>
+                    <option value="6">4112 (mp3cut.net) (4).wav</option>
+                </select>
+
+				
+			</div>
+			<button type="submit" class="btn btn-outline-success">Transcribe File</button>
+        </form>
+        <div id="transInputfiles5"></div> 
+        <br/>
+
+         <!-- Employee 7 --> 
+        <form id="transcribe6" >
+			<div class="form-group" >
+				
+               
+                <label for="autocomplete"><h3>Employee 7 </h3></label>
+                <select name="files" id="file-select6">
+                    <option value="">--Please choose an option--</option>
+                    <option value="1">4112 (mp3cut.net) (5).wav</option>
+                    <option value="2">4112 (mp3cut.net).wav</option>
+                    <option value="3">4145 (mp3cut.net) (1).wav</option>
+                    <option value="4">4145 (mp3cut.net) (2).wav</option>
+                    <option value="5">4145 (mp3cut.net) (3).wav</option>
+                    <option value="6">4145 (mp3cut.net) (4).wav</option>
+                </select>
+
+				
+			</div>
+			<button type="submit" class="btn btn-outline-success">Transcribe File</button>
+        </form>
+        <div id="transInputfiles6"></div> 
+
+        <br/><br/>
+
+         <!-- Employee 8 --> 
+        <form id="transcribe7" >
+			<div class="form-group" >
+				
+             
+                <label for="autocomplete"><h3>Employee 8 </h3></label>
+                <select name="files" id="file-select7">
+                    <option value="">--Please choose an option--</option>
+                    <option value="1">4145 (mp3cut.net).wav</option>
+                    <option value="2">4156 (mp3cut.net) (1).wav</option>
+                    <option value="3">4156 (mp3cut.net) (2).wav</option>
+                    <option value="4">4156 (mp3cut.net) (3).wav</option>
+                    <option value="5">4156 (mp3cut.net).wav</option>
+                    <option value="6">4157 (mp3cut.net) (1).wav</option>
+                </select>
+
+				
+			</div>
+			<button type="submit" class="btn btn-outline-success">Transcribe File</button>
+        </form>
+        <div id="transInputfiles7"></div> 
+        <br/><br/>
+
+
+         <!-- Employee 9 --> 
+        <form id="transcribe8" >
+			<div class="form-group" >
+				
+              
+                <label for="autocomplete"><h3>Employee 9 </h3></label>
+                <select name="files" id="file-select8">
+                    <option value="">--Please choose an option--</option>
+                    <option value="1">4157 (mp3cut.net).wav</option>
+                    <option value="2">4170 (mp3cut.net) (1).wav</option>
+                    <option value="3">4170 (mp3cut.net) (2).wav</option>
+                    <option value="4">4170 (mp3cut.net) (3).wav</option>
+                    <option value="5">4170 (mp3cut.net) (4).wav</option>
+                    <option value="6">4170 (mp3cut.net).wav</option>
+                </select>
+
+				
+			</div>
+			<button type="submit" class="btn btn-outline-success">Transcribe File</button>
+        </form>
+        <div id="transInputfiles8"></div> 
+        
+        <form id="transcribe9" >
+			<div class="form-group" >
+				
+                <br/><br/>
+                <label for="autocomplete"><h3>Employee 10 </h3></label>
+                <select name="files" id="file-select9">
+                    <option value="">--Please choose an option--</option>
+                    <option value="1">4183 (mp3cut.net) (1).wav</option>
+                    <option value="2">4183 (mp3cut.net) (2).wav</option>
+                    <option value="3">4183 (mp3cut.net) (3).wav</option>
+                    <option value="4">4183 (mp3cut.net) (4).wav</option>
+                    <option value="5">4183 (mp3cut.net).wav</option>
+                    <option value="6">4184 (mp3cut.net) (1).wav</option>
+                </select>
+
+				
+			</div>
+            <button type="submit" class="btn btn-outline-success">Transcribe File</button>
+           
+        </form>
+        <br/><br/>
+
+        <div id="transInputfiles9"></div> 
+        <br/><br/>
+
+        </div>
+        
+    </div>
+
+    
+        <form id="viewtranscribe" >
+			<div class="form-group">
+                <label for="autocomplete"><h3>View Most Recently Transcribed file</h3></label>
+        	</div>
+			<button type="submit" class="btn btn-outline-success">View Transcribed File</button>
+		</form>
+
+        <br/><br/>
+        <div id="transcribeview"></div> 
+        
+        <br/><br/>
+
+
+        <br/><br/>
+        <form id="masking" >
+			<div class="form-group">
+                <label for="autocomplete"><h3>Masking Most Recently Transcribed file</h3></label>
+                <input type="text" class="form-control" id="maskid" autocomplete="off" placeholder="Please Enter filename" />
+        	</div>
+			<button type="submit" class="btn btn-outline-success">Mask </button>
+		</form>
+
+        <br/><br/>
+
+        <div id="maskResults"></div>
+
+        <br/><br/>
+
+        <form id="viewmaskoutput" >
+			<div class="form-group">
+                <label for="autocomplete"><h3>View Most Recently Masked File Output</h3></label>
+        	</div>
+			<button type="submit" class="btn btn-outline-success">View Masked Data</button>
+		</form>
+
+        <br/><br/>
+        <div id="viewmaskoutputfile"></div> 
+        <br/><br/>
+
+        <br/><br/>
+
+        <form id="analyzesenti" >
+			<div class="form-group">
+                <label for="autocomplete"><h3>Analyze Sentiment of Most Recently Masked File</h3></label>
+                <input type="text" class="form-control" id="analyzesentiment" autocomplete="off" placeholder="Please Enter filename" />
+        	</div>
+			<button type="submit" class="btn btn-outline-success">View Sentiment</button>
+		</form>
+
+        <br/><br/>
+        <div id="sentioutput"></div> 
+        <br/><br/>
+
+      
+
+        <form id="triggerpolly" >
+			<div class="form-group">
+                <label for="autocomplete"><h3>Converting Text to Audio of Most Recent Masked File</h3></label>
+                <input type="text" class="form-control" id="triggerpollyid" autocomplete="off" placeholder="Please Enter filename" />
+        	</div>
+			<button type="submit" class="btn btn-outline-success">Convert </button>
+		</form>
+      
+        <br/><br/>
+        <div id="viewpolly"></div> 
+        <br/><br/>
+      
+       
+        <form id="callrecord" >
+			<div class="form-group">
+				<label for="autocomplete"><h3>Download Most Recent Text-To-Audio Recording </h3></label>
+                
+					</div>
+			<button type="submit" class="btn btn-outline-success">Download</button>
+		</form>
+
+        <br/><br/>
+        
+        <div id="recordaudio"></div>
+
+        <br/><br/>
+
+		
+	</div>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+
+    <script type="text/javascript">
+		$(function() {
+            //Transcribe 
+			$('#transcribe').submit(function(e) {
+				e.preventDefault();
+                const selectFile = $( "#file-select option:selected" ).text();
+                 
+				
+				$.ajax({
+					url: '/transcribe?filename='+selectFile,
+					type: 'get',
+					data: {jsdata: selectFile},
+					success: function(res) {
+						
+                       $('#transInputfiles').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+            //Transcribe1 
+			$('#transcribe1').submit(function(e) {
+				e.preventDefault();
+                const selectFile = $( "#file-select1 option:selected" ).text();
+                 
+				
+				$.ajax({
+					url: '/transcribe?filename='+selectFile,
+					type: 'get',
+					data: {jsdata: selectFile},
+					success: function(res) {
+						
+                       $('#transInputfiles1').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+            //Transcribe2 
+			$('#transcribe2').submit(function(e) {
+				e.preventDefault();
+                const selectFile = $( "#file-select2 option:selected" ).text();
+                 
+				
+				$.ajax({
+					url: '/transcribe?filename='+selectFile,
+					type: 'get',
+					data: {jsdata: selectFile},
+					success: function(res) {
+						
+                       $('#transInputfiles2').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+            //Transcribe3 
+			$('#transcribe3').submit(function(e) {
+				e.preventDefault();
+                const selectFile = $( "#file-select3 option:selected" ).text();
+                 
+				
+				$.ajax({
+					url: '/transcribe?filename='+selectFile,
+					type: 'get',
+					data: {jsdata: selectFile},
+					success: function(res) {
+						
+                       $('#transInputfiles3').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+
+
+            //Transcribe4 
+			$('#transcribe4').submit(function(e) {
+				e.preventDefault();
+                const selectFile = $( "#file-select4 option:selected" ).text();
+                 
+				
+				$.ajax({
+					url: '/transcribe?filename='+selectFile,
+					type: 'get',
+					data: {jsdata: selectFile},
+					success: function(res) {
+						
+                       $('#transInputfiles4').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+
+            //Transcribe 5
+			$('#transcribe5').submit(function(e) {
+				e.preventDefault();
+                const selectFile = $( "#file-select5 option:selected" ).text();
+                 
+				
+				$.ajax({
+					url: '/transcribe?filename='+selectFile,
+					type: 'get',
+					data: {jsdata: selectFile},
+					success: function(res) {
+						
+                       $('#transInputfiles5').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+            //Transcribe 6
+			$('#transcribe6').submit(function(e) {
+				e.preventDefault();
+                const selectFile = $( "#file-select6 option:selected" ).text();
+                 
+				
+				$.ajax({
+					url: '/transcribe?filename='+selectFile,
+					type: 'get',
+					data: {jsdata: selectFile},
+					success: function(res) {
+						
+                       $('#transInputfiles6').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+            //Transcribe 7
+			$('#transcribe7').submit(function(e) {
+				e.preventDefault();
+                const selectFile = $( "#file-select7 option:selected" ).text();
+                 
+				
+				$.ajax({
+					url: '/transcribe?filename='+selectFile,
+					type: 'get',
+					data: {jsdata: selectFile},
+					success: function(res) {
+						
+                       $('#transInputfiles7').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+            //Transcribe 8
+			$('#transcribe8').submit(function(e) {
+				e.preventDefault();
+                const selectFile = $( "#file-select8 option:selected" ).text();
+                 
+				
+				$.ajax({
+					url: '/transcribe?filename='+selectFile,
+					type: 'get',
+					data: {jsdata: selectFile},
+					success: function(res) {
+						
+                       $('#transInputfiles8').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+            //Transcribe9 
+			$('#transcribe9').submit(function(e) {
+				e.preventDefault();
+                const selectFile = $( "#file-select9 option:selected" ).text();
+                 
+				
+				$.ajax({
+					url: '/transcribe?filename='+selectFile,
+					type: 'get',
+					data: {jsdata: selectFile},
+					success: function(res) {
+						
+                       $('#transInputfiles9').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+            //View transcribed file
+            $('#viewtranscribe').submit(function(e) {
+				e.preventDefault();
+                const selectFile = $( "#file-select9 option:selected" ).text();
+				$.ajax({
+					url: '/viewtranscribe',
+                    type: 'get',
+                    data: {jsdata: selectFile},
+					success: function(res) {
+						
+                       $('#transcribeview').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+
+            //Trigger Step Function for Masking Data
+            $('#masking').submit(function(e) {
+                e.preventDefault();
+                
+                const maskfile = $('#maskid').val();
+                
+				$.ajax({
+					url: '/TriggerStepFunction?filename='+maskfile,
+                    type: 'get',
+                    data: {jsdata: maskfile},
+					success: function(res) {
+						
+                       $('#maskResults').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+
+                //View Masked file Output
+                $('#viewmaskoutput').submit(function(e) {
+				e.preventDefault();
+               
+				$.ajax({
+					url: '/viewmaskedoutput',
+                    type: 'get',
+                    
+					success: function(res) {
+						
+                       $('#viewmaskoutputfile').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+
+
+            //Trigger Sentiment analysis 
+            $('#analyzesenti').submit(function(e) {
+                e.preventDefault();
+                
+                const senti = $('#analyzesentiment').val();
+                
+				$.ajax({
+					url: '/sentiment?filename='+senti,
+                    type: 'post',
+                    
+					success: function(res) {
+						
+                       $('#sentioutput').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+
+            //Trigger Amazon polly
+            $('#triggerpolly').submit(function(e) {
+                e.preventDefault();
+                
+                const triggerpollyid = $('#triggerpollyid').val();
+                
+				$.ajax({
+					url: '/TextToSpeech?filename='+triggerpollyid,
+                    type: 'get',
+                   
+					success: function(res) {
+						
+                       $('#viewpolly').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+            });
+
+            
+            //View Call Recordings
+            $('#callrecord').submit(function(e) {
+				e.preventDefault();
+
+				$.ajax({
+					url: '/callrecord',
+					type: 'get',
+					success: function(res) {
+						
+                       $('#recordaudio').html(res);
+                        
+					},
+					error: function(err) {
+						alert('Error: ' + err);
+					}
+				});
+			});
+
+
+        });
+        
+        
+
+	</script>
+</body>
+</html>

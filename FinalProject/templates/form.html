@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+	
+	<title>Call Recording Analysis</title>
+
+    <script language="JavaScript" type="text/javascript" src="static/js/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="static/css/bootstrap-grid.min.css" />
+	<script language="JavaScript" type="text/javascript" src="static/js/bootstrap.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="static/js/jquery-ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="static/css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="static/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/default.css">
+	<link rel="stylesheet" href="static/css/layout.css">
+   <link rel="stylesheet" href="static/css/media-queries.css">
+   <link rel="stylesheet" href="static/css/magnific-popup.css">
+<!-- Mobile Specific Metas
+   ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <!-- Script
+   ================================================== -->
+	<!--<script src="js/modernizr.js"></script>-->
+   <script src="https://kit.fontawesome.com/96b9af3ca9.js" crossorigin="anonymous"></script>
+
+   <style type="text/css">
+   body{
+
+    background-color: rgb(179, 165, 87);
+   }
+
+
+   label{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+   }
+
+
+     .formfill {
+       
+        max-width: 500px;
+        margin: auto;
+        /* margin-right:40px ; */
+        align-items: center;
+        } 
+
+        h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+                text-align: center;
+            }
+        
+    </style>
+
+</head>
+<body style="background-image: url(https://raw.githubusercontent.com/samarthhadawale/CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master/main/Final%20Project/Images/orange.jpg)">
+
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" style="opacity: 90%">
+            
+        <a class="navbar-brand" href="#" style="padding-left: 20px;padding-right: 20px">Sentiment Analysis</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/authuser">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/historicalrecordings">Historical Recording Analysis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/reatimeanalysis">Real Time Analysis</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/analytics">Analytics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/form">Feedback</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/logout">Logout</a>
+                </li>
+                
+            </ul>
+        </div>
+        </nav>
+    
+        
+        <h1>Feedback Form for Employee</h1>
+
+<form           class="formfill"
+               action="https://formspree.io/xoqpqjzb" 
+               method="POST" id="contactForm" name="contactForm">
+
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Employee Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required"> *</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <label for=""><span></span></label>
+                     <button  type="submit"  formtarget="_blank"  >Submit</button>
+
+                  </div>
+
+					</fieldset>
+                   </form> <!-- Form End-->
+
+                      <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+                   
+</body>

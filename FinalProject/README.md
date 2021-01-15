@@ -50,32 +50,51 @@ How - Implemented AWS cloud services, FastAPI, HTML/CSS/Bootstrap
 ### Dashboard Links:
 Tableau:https://public.tableau.com/profile/samarth.hadawale#!/vizhome/BigDataFinal_16082339565680/Dashboard1
 
+
 QuickSight Dashboard:
 
+<img width="1203" alt="Quicksight" src="https://user-images.githubusercontent.com/55570382/102640005-d9e31500-4127-11eb-8cca-5926b80f4fe0.png">
 
 ### Implementation Architecture
 
+![WhatsApp Image 2020-12-18 at 12 01 23](https://user-images.githubusercontent.com/55570382/102640674-d8feb300-4128-11eb-9d24-38131cd69f2a.jpeg)
 
 ### Real-Time Sentiment Analysis Architecture
 
+![WhatsApp Image 2020-12-18 at 02 36 04](https://user-images.githubusercontent.com/55570382/102640706-e9af2900-4128-11eb-8509-8ef77db03a83.jpeg)
+
 ### Use Cases
+
+![WhatsApp Image 2020-12-18 at 12 00 32](https://user-images.githubusercontent.com/55570382/102640745-f59aeb00-4128-11eb-8fac-ebd0a6238b4c.jpeg)
 
 ### Dataset
 We will be working on audio files to convert them to text files in order to perform sentiment analysis, visualization(Statistics), masking and convert it back from text to speech by maintaining user confidentiality so that admin users can access them as per requirements.
 
 Dataset Links :-
-https://media.talkbank.org/ca/CallHome/eng/
-https://www.cmswire.com/digital-asset-management/9-voice-datasets-you-should-know-about/
-https://research.google.com/audioset/
-https://commonvoice.mozilla.org/en/datasets
 
+1. https://media.talkbank.org/ca/CallHome/eng/
 
+2. https://www.cmswire.com/digital-asset-management/9-voice-datasets-you-should-know-about/
 
-### 1. Historical Recording Analysis
+3. https://research.google.com/audioset/
 
-Step 1:- Select file from dropdown to Transcribe
+4. https://commonvoice.mozilla.org/en/datasets
 
-Step 2:- Click on "View Most Recently Transcribed file" to view trascribed file
+### 1. Login Page
+
+Go to Deployment Link -> Enter valid username and password.
+
+<img width="847" alt="login" src="https://user-images.githubusercontent.com/55570382/102641985-faf93500-412a-11eb-8988-da9a9d798dad.PNG">
+
+### 2. Historical Recording Analysis
+
+<img width="957" alt="hist1" src="https://user-images.githubusercontent.com/55570382/102642025-0c424180-412b-11eb-84fd-610ed4a99ef3.PNG">
+
+<img width="916" alt="hist2" src="https://user-images.githubusercontent.com/55570382/102642063-195f3080-412b-11eb-8b26-c4f7a50a33c2.PNG">
+
+Step 1:- Select file from dropdown to Transcribe 
+
+Step 2:- Click on "View Most Recently Transcribed file" to view recently trascribed file
 
 Step 3:- Enter File name from Step2 to Masking Most Recently Transcribed file
 
@@ -87,7 +106,8 @@ Step 6:- Enter file name from Step5 to Converting Text to Audio of Most Recent M
 
 Step 7:- Click on "Download button" to download Most Recent Text-To-Audio Recording
 
-### 2. FeedBack Form
+
+### 3. FeedBack Form
 
 Step 1:- Go to Feedback tab 
 
@@ -95,13 +115,18 @@ Step 2:- Enter Employee Name, Email, Subject and Message
 
 Step 3:- Click on "Submit" button to Send the email to the employee
 
-### 3. Transcribe: Real-Time Call Recordings Analysis
+### 4. Transcribe: Real-Time Call Recordings Analysis
+
+
+<img width="943" alt="realtime" src="https://user-images.githubusercontent.com/55570382/102642447-aefac000-412b-11eb-9167-7d06849d1810.PNG">
 
 Step 1:- Please Click this link "https://d1vpe7uy6jo5tc.awsapps.com/connect/home" to login to Amazon Connect to access the AWS Connect Service 
+
 Username:- SamArt
+
 Password:- Siddh!@1995
 
-Step 2:- Step 2: Please Click this link "https://d1z6rsdmogxasa.cloudfront.net/" to access Web UI to accept calls from customer as an Employee
+Step 2:- Step 2: Please Click this link "https://d1z6rsdmogxasa.cloudfront.net/" to access Web UI(employee) to accept calls from customer 
 
 Step 3:- Call on +1 929-357-9378 number(as a Customer) and then attend it using AWS Connect web page(as an Employee of a Company)
 
@@ -111,3 +136,20 @@ Step 5:- Click on "Analyze" button to Analyze Sentiment of the Recent Real-Time 
 
 Step 6:- Click on "Download" Button to download call Recording of the Recent Real-Time Call(Optional)
 
+### 5. Analytics
+
+<img width="353" alt="dashboardTab" src="https://user-images.githubusercontent.com/55570382/102642475-bcb04580-412b-11eb-95d9-3818d1411587.PNG">
+
+Our Analysis analyzes the call recordings between employees and customers and evaluates tone, intent & emotions behind each call.
+
+We are performing Sentiment analysis by categorizing the customers into four different segments such as Positive, Negative, Neutral and Mixed sentiments.
+
+Our Dataset comprised of 500+ call recordings between customer and employee from which 34% of the calls had Positive , 27% had Negative, 32% had Neutral and 7% had Mixed sentiments.
+
+Employee 6 and Employee 10 are the highest performing employees with each of them attending 69 calls approximately. Employee 10 is top performer with the highest amount of positive sentiment calls(28).
+
+Out of 4 different categories Positive sentiment is the category with highest count(95) among Male whereas neutral sentiment is the category with highest count(75) among Female.
+
+1. Please click on the link to view Quick Sight visualizations
+
+2. View Tableau Dashboard visualization

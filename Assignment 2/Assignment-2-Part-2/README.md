@@ -1,6 +1,6 @@
 # CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master
 
-#### Assignment 2 - Part 2: Productionizing the Pipeline
+## Assignment 2 - Part 2: Productionizing the Pipeline
 
 | NAME              |     NUID        |
 |------------------ |-----------------|
@@ -8,8 +8,6 @@
 | Shivendra Shahi   |   001393331     |
 | Siddhi Prabhu     |   001342165     |
 
-
-Assignment 2 - Part 2:
 
 #### Google Docs Link
 https://docs.google.com/document/d/12VoxhbA7NaXx5GRiiRAunz3cxcH0hUMFM_bTlqL7O-A/edit?usp=sharing

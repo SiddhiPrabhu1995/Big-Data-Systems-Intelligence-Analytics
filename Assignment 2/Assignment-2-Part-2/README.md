@@ -1,6 +1,6 @@
 # CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master
 
-#### Team 4 : 
+#### Assignment 2 - Part 2: Productionizing the Pipeline
 
 | NAME              |     NUID        |
 |------------------ |-----------------|

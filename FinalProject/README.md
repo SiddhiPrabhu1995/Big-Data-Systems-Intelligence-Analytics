@@ -48,8 +48,10 @@ How - Implemented AWS cloud services, FastAPI, HTML/CSS/Bootstrap
 
 
 ### Dashboard Links:
-Tableau:https://public.tableau.com/profile/samarth.hadawale#!/vizhome/BigDataFinal_16082339565680/Dashboard1
 
+Tableau Dashboard:
+
+<img width="712" alt="Dashboard 1" src="https://user-images.githubusercontent.com/57429405/104777027-0602ad80-5749-11eb-8ba3-2b52ccb512b5.png">
 
 QuickSight Dashboard:
 

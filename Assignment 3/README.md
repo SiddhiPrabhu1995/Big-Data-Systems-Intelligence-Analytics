@@ -1,6 +1,6 @@
 # CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master
 
-## Team 4 : Assignment 3 - To deploy a sentiment analysis model to create a Model-as-a-service for anonymized data 
+## Assignment 3 - To deploy a sentiment analysis model to create a Model-as-a-service for anonymized data 
 
 | NAME              |     NUID        |
 |------------------ |-----------------|

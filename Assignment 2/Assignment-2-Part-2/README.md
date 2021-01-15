@@ -52,6 +52,8 @@ Swagger UI page will be displayed where you can test your API's
 
 ### User Authentication 
 
+![userauth](https://user-images.githubusercontent.com/57429405/104782489-46b2f480-5752-11eb-8404-97e757614e10.jpg)
+
 <img width="708" alt="userauth" src="https://user-images.githubusercontent.com/55570382/100290057-65fa8600-2f48-11eb-8d35-38a3fe73b10e.PNG">
 
 #### API 1 : Scraping

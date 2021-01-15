@@ -1,6 +1,6 @@
 # CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master
 
-#### Team 4 : Part 1 : ML as a service
+## Part 1 : ML as a service
 
 | NAME              |     NUID        |
 |------------------ |-----------------|

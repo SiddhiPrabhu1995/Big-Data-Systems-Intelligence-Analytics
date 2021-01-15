@@ -21,6 +21,8 @@ Assignment 2 Part 1 :
 
 Followed the reference architecture : https://aws.amazon.com/blogs/machine-learning/identifying-and-working-with-sensitive-healthcare-data-with-amazon-comprehend-medical/
 
+<img width="400" alt="Assign1_Part1_Activ1" src="https://user-images.githubusercontent.com/57429405/104780884-7f050380-574f-11eb-9517-ea69d9dea4c9.PNG">
+
 This architecture uses the following services:
 
 Amazon Comprehend Medical to identify entities within a body of text
@@ -68,6 +70,8 @@ Running the Docker container.
 #### DataFlow De-identification pipeline - Google Cloud Platform
 
 Followed the reference architecture : https://github.com/GoogleCloudPlatform/dlp-dataflow-deidentification
+
+<img width="462" alt="GCP" src="https://user-images.githubusercontent.com/57429405/104781714-fb4c1680-5750-11eb-9677-b11f64698cf3.PNG">
 
 Performed Data de-identification using Cloud Storage and Dataflow
 Configuration and Management using Cloud DLP and Cloud KMS

@@ -46,17 +46,6 @@ Where - This project will be delivered to companies requiring to analyze the sen
 
 How - Implemented AWS cloud services, FastAPI, HTML/CSS/Bootstrap
 
-
-### Dashboard Links:
-
-Tableau Dashboard:
-
-<img width="712" alt="Dashboard 1" src="https://user-images.githubusercontent.com/57429405/104777027-0602ad80-5749-11eb-8ba3-2b52ccb512b5.png">
-
-QuickSight Dashboard:
-
-<img width="1203" alt="Quicksight" src="https://user-images.githubusercontent.com/55570382/102640005-d9e31500-4127-11eb-8cca-5926b80f4fe0.png">
-
 ### Implementation Architecture
 
 ![WhatsApp Image 2020-12-18 at 12 01 23](https://user-images.githubusercontent.com/55570382/102640674-d8feb300-4128-11eb-9d24-38131cd69f2a.jpeg)
@@ -142,7 +131,16 @@ Step 6:- Click on "Download" Button to download call Recording of the Recent Rea
 
 ### 5. Analytics
 
-<img width="353" alt="dashboardTab" src="https://user-images.githubusercontent.com/55570382/102642475-bcb04580-412b-11eb-95d9-3818d1411587.PNG">
+#### Dashboards:
+
+Tableau Dashboard:
+
+<img width="712" alt="Dashboard 1" src="https://user-images.githubusercontent.com/57429405/104777027-0602ad80-5749-11eb-8ba3-2b52ccb512b5.png">
+
+QuickSight Dashboard:
+
+<img width="1203" alt="Quicksight" src="https://user-images.githubusercontent.com/55570382/102640005-d9e31500-4127-11eb-8cca-5926b80f4fe0.png">
+
 
 Our Analysis analyzes the call recordings between employees and customers and evaluates tone, intent & emotions behind each call.
 

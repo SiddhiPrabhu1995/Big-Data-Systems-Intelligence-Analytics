@@ -15,3 +15,9 @@
 
 ## About Data as a Service
 
+Data as a service (DaaS) is a data management strategy that uses the cloud to deliver data storage, integration, processing, and/or analytics services via a network connection.
+
+### Architectural Workflow : Securing AWS API Gateway using AWS Cognito OAuth2 scopes
+
+
+

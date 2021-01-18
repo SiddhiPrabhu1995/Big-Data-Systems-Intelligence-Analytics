@@ -1,6 +1,6 @@
 # CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master
 
-## Assignment 1- pARpAERT - To deploy a sentiment analysis model to create a Model-as-a-service for anonymized data 
+## Assignment 1- Data as a Service 
 
 | NAME              |     NUID        |
 |------------------ |-----------------|
@@ -9,9 +9,6 @@
 | Siddhi Prabhu     |   001342165     |
 
 
-
-Assignment 1 Part 1 :
-
 1. Google Docs Link : https://docs.google.com/document/d/1YLTFKUzdbuxrQO2cLU5RBFUIdrHWENIF0l27dtXGxLo/edit?usp=sharing
 
 2. CLAT Document Link : https://codelabs-preview.appspot.com/?file_id=1YLTFKUzdbuxrQO2cLU5RBFUIdrHWENIF0l27dtXGxLo#0
@@ -19,6 +16,8 @@ Assignment 1 Part 1 :
 3. Google Colab Link : https://colab.research.google.com/drive/1ZHoeErJbaOD6uKB3tTksM0iZYcbcMFBl#scrollTo=59WWk7oRRZaD
 
 ### Task 1 :- About Moody Analytics:-
+
+![moody](https://user-images.githubusercontent.com/57429405/104866015-85d87580-590b-11eb-9f07-b2f6e9b480b9.jpg)
 
 Moody’s Analytics provides financial intelligence and analytical tools to help business leaders make better, faster decisions
 

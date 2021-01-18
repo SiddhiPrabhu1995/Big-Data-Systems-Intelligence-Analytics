@@ -22,6 +22,8 @@ Password: Pass@1234
 
 2. CLAT Document Link : https://codelabs-preview.appspot.com/?file_id=1V85ECK5Z20Oa4dCATP8U7lRnX1kA3P4unen8w8Tfuww#2
 
+3. Demo Video Recording : https://drive.google.com/file/d/1j-gu9BEmxG2PMGpABEYVJsVUbtK3qs4j/view?usp=sharing
+
 ### About Sentiment Analysis
 
 Sentiment analysis (also known as opinion mining or emotion AI) refers to the use of natural language processing, text analysis, computational linguistics, and biometrics to systematically identify, extract, quantify the information.

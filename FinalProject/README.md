@@ -24,6 +24,49 @@ Password: Pass@1234
 
 3. Demo Video Recording : https://drive.google.com/file/d/1j-gu9BEmxG2PMGpABEYVJsVUbtK3qs4j/view?usp=sharing
 
+### Install instructions
+Create an Amazon Web Services (AWS) account
+If you already have an account, skip this step.
+
+Go to this link and follow the instructions. You will need a valid debit or credit card. You will not be charged, it is only to validate your ID.
+
+Install AWS Command Line Interface (AWSCLI)
+Install the AWS CLI Version 1 for your operating system. Please follow the appropriate link below based on your operating system.
+
+macOS
+
+Windows
+
+### Available Scripts
+
+Download the available project folder
+
+Install the following packages 
+
+#### `pip install fastapi[all]`
+
+#### `pip install boto3`
+
+#### `pip install requests`
+
+#### `pip install datetime`
+
+#### `pip install botocore`
+
+#### `pip install mangum`
+
+#### `pip install fastapi_cloudauth`
+
+#### `pip install nltk`
+
+#### `pip install rake_nltk`
+
+Run the application locally using following command
+
+#### `uvicorn main:app --reload`
+
+Go to http://127.0.0.1:8000 to view the application
+
 ### About Sentiment Analysis
 
 Sentiment analysis (also known as opinion mining or emotion AI) refers to the use of natural language processing, text analysis, computational linguistics, and biometrics to systematically identify, extract, quantify the information.

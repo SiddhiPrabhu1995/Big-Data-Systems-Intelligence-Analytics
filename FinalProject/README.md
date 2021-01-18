@@ -89,7 +89,7 @@ Run the application locally using following command
 
 #### `uvicorn main:app --reload`
 
-Go to http://127.0.0.1:8000 to view the application
+Go to http://127.0.0.1:8000 to view the application locally
 
 ### About Sentiment Analysis
 

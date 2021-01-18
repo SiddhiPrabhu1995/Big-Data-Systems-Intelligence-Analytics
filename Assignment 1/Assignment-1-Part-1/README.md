@@ -58,7 +58,7 @@ Performed Data Ingestion from S3 bucket(Staging) to DynamoDB using Lambda functi
 
 ### Task 3 : Design the Fast API
 
-Approaches:-
+##### Approaches:-
 
 1. Integration of FastAPI with Lambda using Mangum 
 2. Using lambda with API gateways - (Get, Post API)
@@ -67,10 +67,12 @@ Approaches:-
 
 ### Task 4 : Enabling API key authentication
 
-API key validation by:
+##### API key validation by:
 
 Checking for a query parameter containing the API key
+
 Checking for a header containing the API key
+
 Checking for a cookie containing the API key
 
 <img width="356" alt="securepage" src="https://user-images.githubusercontent.com/57429405/104866469-a3f2a580-590c-11eb-89df-f11f3be8ecf4.PNG">

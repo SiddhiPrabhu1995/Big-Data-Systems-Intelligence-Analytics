@@ -25,6 +25,21 @@ Data as a service (DaaS) is a data management strategy that uses the cloud to de
 
 <img width="193" alt="userpool" src="https://user-images.githubusercontent.com/57429405/104872919-2edb9c00-591d-11eb-8db5-2eeaf177d12f.PNG">
 
+Steps:-
+
+1. Creating userpool -> Create User -> Confirming the user in user pool
+
+2. Configure authadd.py fastapi file -> execute the fastapi file in command prompt `uvicorn authadd:app --reload --port 8000`
+
+3. Go to http://127.0.0.1:8000 to view the fastapi in swagger ui locally
+
+4. Authorize the API to access the API's
+
+5. Click on 'Authorize' button -> Enter Token ID -> Click on 'Authorize' 
+
+
+
+
 ### Task 2 : Save the tokens tied to the user-API into dynamodb
 
 ### Task 3 : Create an API that will validate whether the token is valid or not

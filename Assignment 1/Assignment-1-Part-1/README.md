@@ -17,7 +17,7 @@
 
 ### Task 1 :- About Moody Analytics:-
 
-![moody](https://user-images.githubusercontent.com/57429405/104866015-85d87580-590b-11eb-9f07-b2f6e9b480b9.jpg)
+![Moodys](https://user-images.githubusercontent.com/57429405/104783487-208e5400-5754-11eb-9136-a8b55afaf339.png)
 
 Moody’s Analytics provides financial intelligence and analytical tools to help business leaders make better, faster decisions
 
@@ -27,7 +27,7 @@ Moody’s Analytics provides a robust set of APIs that enable users to interact 
 
 #### Application Workflow:-
 
-![Moodys](https://user-images.githubusercontent.com/57429405/104783487-208e5400-5754-11eb-9136-a8b55afaf339.png)
+<img width="566" alt="workflow" src="https://user-images.githubusercontent.com/57429405/104866134-ca641100-590b-11eb-9965-e9b53777eaeb.PNG">
 
 #### Objective:-
 
@@ -45,6 +45,8 @@ How - Used AWS services like S3 bucket, Lambda function, DynamoDB, API Gateway. 
 
 ### Task 2 :- Data Ingestion
 
+Performed Data Ingestion from S3 bucket(Staging) to DynamoDB using Lambda function.
+
 #### Proposed Approach :
 
 ![new1](https://user-images.githubusercontent.com/57429405/104783666-8d095300-5754-11eb-8cc8-cad96b8bdd31.jpg)
@@ -53,8 +55,27 @@ How - Used AWS services like S3 bucket, Lambda function, DynamoDB, API Gateway. 
 
 ![Implemetation](https://user-images.githubusercontent.com/57429405/104783718-a8745e00-5754-11eb-90eb-36f2e3c308ce.jpg)
 
+
 ### Task 3 : Design the Fast API
 
+Approaches:-
+
+1. Integration of FastAPI with Lambda using Mangum 
+2. Using lambda with API gateways - (Get, Post API)
+
+<img width="600" alt="fastapi" src="https://user-images.githubusercontent.com/57429405/104866496-b5d44880-590c-11eb-80c8-9d8765fd7794.PNG">
+
+### Task 4 : Enabling API key authentication
+
+API key validation by:
+
+Checking for a query parameter containing the API key
+Checking for a header containing the API key
+Checking for a cookie containing the API key
+
+<img width="356" alt="securepage" src="https://user-images.githubusercontent.com/57429405/104866469-a3f2a580-590c-11eb-89df-f11f3be8ecf4.PNG">
+
+<img width="600" alt="fastapi" src="https://user-images.githubusercontent.com/57429405/104866429-90473f00-590c-11eb-9fe6-a3fd82df1964.PNG">
 
 
 

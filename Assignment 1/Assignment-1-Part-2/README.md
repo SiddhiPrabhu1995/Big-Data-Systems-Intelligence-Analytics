@@ -19,7 +19,7 @@ Data as a service (DaaS) is a data management strategy that uses the cloud to de
 
 ### Architectural Workflow : Securing AWS API Gateway using AWS Cognito OAuth2 scopes
 
-<img width="319" alt="awscognito" src="https://user-images.githubusercontent.com/57429405/104872693-904f3b00-591c-11eb-9b43-43830079090e.PNG">
+<img width="519" alt="archtworkflow" src="https://user-images.githubusercontent.com/57429405/104873283-2f286700-591e-11eb-826e-4059c9d633dc.PNG">
 
 ### Implementation : Task 1 : Extend the tutorial to add a new user pool tied to the Fast API you created in Assignment 1- Part 1
 

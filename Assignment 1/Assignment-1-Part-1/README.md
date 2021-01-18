@@ -15,6 +15,29 @@
 
 3. Google Colab Link : https://colab.research.google.com/drive/1ZHoeErJbaOD6uKB3tTksM0iZYcbcMFBl#scrollTo=59WWk7oRRZaD
 
+### Available Scripts
+
+Download the available project folder
+
+Install the following packages 
+
+#### `pip install fastapi[all]`
+
+#### `pip install boto3`
+
+#### `pip install botocore`
+
+#### `pip install mangum`
+
+#### `pip install fastapi_cloudauth`
+
+Run the application locally using following command
+
+#### `uvicorn main:app --reload`
+
+Go to http://127.0.0.1:8000 to view the application locally
+
+
 ### Task 1 :- About Moody Analytics:-
 
 ![Moodys](https://user-images.githubusercontent.com/57429405/104783487-208e5400-5754-11eb-9136-a8b55afaf339.png)

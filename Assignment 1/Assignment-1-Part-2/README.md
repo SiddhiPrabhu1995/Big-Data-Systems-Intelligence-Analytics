@@ -76,3 +76,14 @@ Install the following packages:-
 
 ##### `pip install botocore --target python/.`
 
+Following are the components of the architecture:-
+
+1. Lambda function to identify the protected information
+
+2. Lambda function to mask entities
+
+3. Lambda function to De-identify entities
+
+4. Building state machine to trigger the lambda function flow
+
+

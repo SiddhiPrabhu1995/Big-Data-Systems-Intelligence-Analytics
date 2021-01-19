@@ -29,18 +29,24 @@ Steps:-
 
 1. Creating userpool -> Create User -> Confirming the user in user pool
 
-2. Configure authadd.py fastapi file -> execute the fastapi file in command prompt `uvicorn authadd:app --reload --port 8000`
+2. Install fastapi cloudauth library -> `pip install fastapi-cloudauth`
 
-3. Go to http://127.0.0.1:8000 to view the fastapi in swagger ui locally
+3. Configure authadd.py fastapi file -> execute the fastapi file in command prompt `uvicorn authadd:app --reload --port 8000`
 
-4. Authorize the API to access the API's
+4. Go to http://127.0.0.1:8000 to view the fastapi in swagger ui locally
 
-5. Click on 'Authorize' button -> Enter Token ID -> Click on 'Authorize' 
+5. Authorize the API to access the API's
 
+6. Click on 'Authorize' button -> Enter Token ID -> Click on 'Authorize' 
 
+7. Only authorized users can access the API's
 
 
 ### Task 2 : Save the tokens tied to the user-API into dynamodb
+
+1. Writing a lambda function to manually insert generated tokens into DynamoDB
+
+2. Storing the Tokens into DynamoDB Table
 
 ### Task 3 : Create an API that will validate whether the token is valid or not
 
@@ -48,7 +54,25 @@ References : https://medium.com/@awskarthik82/part-1-securing-aws-api-gateway-us
 
 <img width="672" alt="refarch" src="https://user-images.githubusercontent.com/57429405/104873067-a27da900-591d-11eb-9d77-305e91030e9d.PNG">
 
+1. Create user pool in AWS Cognito
+
+2. Adding an Authorizer at the API Gateway level & tying the Recently created Cognito User pool to that Authorizer
+
+3. Authorization details of API Gateway
+
+4. Secured GET & POST methods of our API Gateway
+
+5. Trying to access the data without an Access token so we are getting ‘Unauthorized' Error
+
+6. Accessing the data from DynamoDB by passing the access token as an Authorization token
+
 ### Task 4 : Anonymization of sensitive data
 
 <img width="316" alt="sensitive" src="https://user-images.githubusercontent.com/57429405/104873124-c6d98580-591d-11eb-9999-29298ecc0051.PNG">
+
+Install the following packages:-
+
+##### `pip install boto3 --target python/.`
+
+##### `pip install botocore --target python/.`
 

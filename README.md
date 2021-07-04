@@ -42,6 +42,10 @@
 
 2. CLAT Document Link : https://codelabs-preview.appspot.com/?file_id=167AMoTA-tuPNzGO_mYGN3pgtVuYu8BRkLI9biF1L78g#0
 
+#### Assignment 4 - GeoStreaming using Apache Kafka producer and consumer with FastAPI and aiokafka 
+
+1. Link: https://github.com/SiddhiPrabhu1995/CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master/blob/master/Assignment4/GeoStreaming_ApacheKafka_FastAPI_aiokafka%20.pdf
+
 #### Final Project - Customer Interaction Sentiment Analysis
 
 ##### AWS Services: AWS Kinesis, Connect, S3, Step functions, Lambda, DynamoDB, ETL Glue, Redshift, Polly, Comprehend, QuickSight

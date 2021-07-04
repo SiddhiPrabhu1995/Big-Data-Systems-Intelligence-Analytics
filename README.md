@@ -44,10 +44,13 @@
 
 #### Final Project - Customer Interaction Sentiment Analysis
 
-AWS Services: AWS Kinesis, Connect, S3, Step functions, Lambda, DynamoDB, ETL Glue, Redshift, Polly, Comprehend, QuickSight
-Front-End: HTML, CSS
-Backend: FastAPI(Boto3)
-Testing: Postman, Swagger UI
+##### AWS Services: AWS Kinesis, Connect, S3, Step functions, Lambda, DynamoDB, ETL Glue, Redshift, Polly, Comprehend, QuickSight
+
+##### Front-End: HTML, CSS
+
+##### Backend: FastAPI(Boto3)
+
+##### Testing: Postman, Swagger UI
 
 1. Google Docs Link : https://docs.google.com/document/d/1V85ECK5Z20Oa4dCATP8U7lRnX1kA3P4unen8w8Tfuww/edit?usp=sharing
 

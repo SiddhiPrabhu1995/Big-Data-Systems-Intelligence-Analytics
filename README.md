@@ -13,7 +13,7 @@ Refer `README.md` inside the respective directories for setup instructions.
 - :white_check_mark: Visualization: AWS QuickSight, Tableau
 - :white_check_mark: Google Cloud Platform (DataFlow, BigQuery, Pub/Sub)
 - :white_check_mark: Streamlit
-- :white_check_mark: FastAPI(Boto3)
+- :white_check_mark: FastAPI(Boto3) : `Python`
 - :white_check_mark: Docker
 - :white_check_mark: Docker + FastAPI: `docker`
 - :white_check_mark: Postman, Swagger UI
@@ -60,7 +60,7 @@ Refer `README.md` inside the respective directories for setup instructions.
 
 #### Real-time Twitter Stream Processing using Kinesis, Lambda and storing in DynamoDB
 
-1. Link: 
+1. Link: https://github.com/SiddhiPrabhu1995/CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master/blob/master/Real-time%20Stream%20Processing%20using%20Kinesis/Kinesis%20Tutorial.pdf
 
 #### Final Project - Customer Interaction Sentiment Analysis
 

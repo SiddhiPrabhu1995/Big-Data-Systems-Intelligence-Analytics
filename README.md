@@ -10,6 +10,7 @@ Refer `README.md` inside the respective directories for setup instructions.
 - :white_check_mark: Getting Started with AWS
 - :white_check_mark: Apache Kafka, Apache Airflow(DAG)
 - :white_check_mark: AWS technology (ETL Glue, Kinesis, Connect, Step function, Lambda, Redshift, DynamoDB, s3, Polly, Comprehend, Cognito, API Gateway)
+- :white_check_mark: Visualization: AWS QuickSight, Tableau
 - :white_check_mark: Google Cloud Platform (DataFlow, BigQuery, Pub/Sub)
 - :white_check_mark: Streamlit
 - :white_check_mark: FastAPI(Boto3)
@@ -59,14 +60,6 @@ Refer `README.md` inside the respective directories for setup instructions.
 1. Link: https://github.com/SiddhiPrabhu1995/CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master/blob/master/Assignment4/GeoStreaming_ApacheKafka_FastAPI_aiokafka%20.pdf
 
 #### Final Project - Customer Interaction Sentiment Analysis
-
-##### AWS Services: AWS Kinesis, Connect, S3, Step functions, Lambda, DynamoDB, ETL Glue, Redshift, Polly, Comprehend, QuickSight
-
-##### Front-End: HTML, CSS
-
-##### Backend: FastAPI(Boto3)
-
-##### Testing: Postman, Swagger UI
 
 1. Google Docs Link : https://docs.google.com/document/d/1V85ECK5Z20Oa4dCATP8U7lRnX1kA3P4unen8w8Tfuww/edit?usp=sharing
 

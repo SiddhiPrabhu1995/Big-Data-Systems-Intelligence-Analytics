@@ -2,13 +2,23 @@
 
 ## Every Assignemnt has it's own ReadMe for detailed explanation.
 
-### Team Information
 
-| NAME              |     NUID        |
-|------------------ |-----------------|
-| Samarth Hadawale  |   001053811     |
-| Shivendra Shahi   |   001393331     |
-| Siddhi Prabhu     |   001342165     |
+### Repo Contents
+
+Refer `README.md` inside the respective directories for setup instructions.
+
+- :white_check_mark: Getting Started with AWS
+- :white_check_mark: Apache Kafka, Apache Airflow(DAG)
+- :white_check_mark: AWS technology (ETL Glue, Kinesis, Connect, Step function, Lambda, Redshift, DynamoDB, s3, Polly, Comprehend, Cognito)
+- :white_check_mark: Google Cloud Platform (DataFlow, BigQuery, Pub/Sub)
+- :white_check_mark: Streamlit
+- :white_check_mark: FastAPI
+- :white_check_mark: Docker
+- :white_check_mark: MLflow: `mlflow`
+- :white_check_mark: Docker + FastAPI: `docker`
+- :white_check_mark: Tensorboard: `tensorboard`
+- :white_check_mark: AWS Lambda - ML Inference: `ml-inference-with-lambda`
+
 
 #### Assignment 1 Part 1- Data as a Service
 

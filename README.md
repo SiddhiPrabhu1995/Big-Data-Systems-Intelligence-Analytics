@@ -44,6 +44,8 @@
 
 #### Assignment 4 - GeoStreaming using Apache Kafka producer and consumer with FastAPI and aiokafka 
 
+##### Technologies: Apache Kafka, Docker, Zookeeper, FastAPI, HTML/CSS, Javascript
+
 1. Link: https://github.com/SiddhiPrabhu1995/CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master/blob/master/Assignment4/GeoStreaming_ApacheKafka_FastAPI_aiokafka%20.pdf
 
 #### Final Project - Customer Interaction Sentiment Analysis

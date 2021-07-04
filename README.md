@@ -9,15 +9,15 @@ Refer `README.md` inside the respective directories for setup instructions.
 
 - :white_check_mark: Getting Started with AWS
 - :white_check_mark: Apache Kafka, Apache Airflow(DAG)
-- :white_check_mark: AWS technology (ETL Glue, Kinesis, Connect, Step function, Lambda, Redshift, DynamoDB, s3, Polly, Comprehend, Cognito)
+- :white_check_mark: AWS technology (ETL Glue, Kinesis, Connect, Step function, Lambda, Redshift, DynamoDB, s3, Polly, Comprehend, Cognito, API Gateway)
 - :white_check_mark: Google Cloud Platform (DataFlow, BigQuery, Pub/Sub)
 - :white_check_mark: Streamlit
-- :white_check_mark: FastAPI
+- :white_check_mark: FastAPI(Boto3)
 - :white_check_mark: Docker
-- :white_check_mark: MLflow: `mlflow`
 - :white_check_mark: Docker + FastAPI: `docker`
-- :white_check_mark: Tensorboard: `tensorboard`
-- :white_check_mark: AWS Lambda - ML Inference: `ml-inference-with-lambda`
+- :white_check_mark: Postman, Swagger UI
+- :white_check_mark: TensorFlow, Bert ML model
+- :white_check_mark: Web technologies - HTML/CSS, Javascript
 
 
 #### Assignment 1 Part 1- Data as a Service

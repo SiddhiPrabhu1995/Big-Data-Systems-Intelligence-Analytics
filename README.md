@@ -8,7 +8,7 @@
 Refer `README.md` inside the respective directories for setup instructions.
 
 - :white_check_mark: Getting Started with AWS
-- :white_check_mark: Apache Kafka, Apache Airflow(DAG)
+- :white_check_mark: Apache Kafka(Zookeeper), Apache Airflow(DAG)
 - :white_check_mark: AWS technology (ETL Glue, Kinesis, Connect, Step function, Lambda, Redshift, DynamoDB, s3, Polly, Comprehend, Cognito, API Gateway)
 - :white_check_mark: Visualization: AWS QuickSight, Tableau
 - :white_check_mark: Google Cloud Platform (DataFlow, BigQuery, Pub/Sub)
@@ -18,6 +18,7 @@ Refer `README.md` inside the respective directories for setup instructions.
 - :white_check_mark: Docker + FastAPI: `docker`
 - :white_check_mark: Postman, Swagger UI
 - :white_check_mark: TensorFlow, Bert ML model
+- :white_check_mark: REST API's
 - :white_check_mark: Web technologies - HTML/CSS, Javascript
 
 
@@ -55,9 +56,11 @@ Refer `README.md` inside the respective directories for setup instructions.
 
 #### Assignment 4 - GeoStreaming using Apache Kafka producer and consumer with FastAPI and aiokafka 
 
-##### Technologies: Apache Kafka, Docker, Zookeeper, FastAPI, HTML/CSS, Javascript
-
 1. Link: https://github.com/SiddhiPrabhu1995/CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master/blob/master/Assignment4/GeoStreaming_ApacheKafka_FastAPI_aiokafka%20.pdf
+
+#### Real-time Twitter Stream Processing using Kinesis, Lambda and storing in DynamoDB
+
+1. Link: 
 
 #### Final Project - Customer Interaction Sentiment Analysis
 

@@ -2,15 +2,6 @@
 
 ## Final Project - Customer Interaction Sentiment Analysis 
 
-#### Team 4 : 
-
-| NAME              |     NUID        |
-|------------------ |-----------------|
-| Samarth Hadawale  |   001053811     |
-| Shivendra Shahi   |   001393331     |
-| Siddhi Prabhu     |   001342165     |
-
-
 ### AWS Deployment Link:
 Link: http://3.93.151.226:8000/
 

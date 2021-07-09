@@ -1,13 +1,4 @@
-# CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master
-
-Team 4 : 
-
-
-| NAME              |     NUID        |
-|------------------ |-----------------|
-| Samarth Hadawale  |   001053811     |
-| Shivendra Shahi   |   001393331     |
-| Siddhi Prabhu     |   001342165     |
+# AWS Cloud Architecture with Secure RestAPIs
 
 
 Assignment 1 :

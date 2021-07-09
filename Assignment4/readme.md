@@ -30,7 +30,14 @@ When a consumer consumes a message it is pulling the message from a Kafka topic.
 
 ## STEP 2: Run docker and use cmd to run the following command
 
+This command would help spin up multiple docker containers for your kafka client, zookeeper, a producer and a consumer.
+
+![image](https://user-images.githubusercontent.com/57429405/125013614-1df12500-e03a-11eb-816e-e2454a981476.png)
+
 ## STEP 3: Change the configurations of producer and consumer
+
+The KAFKA_URI and KAFKA_PORT need to be configured the KAFKA_URI for Mac would be the same as KAFKA_ADVERTISED_HOST_NAME.
+The KAFKA_PORT would be 9092 if you haven't made changes to the docker file.
 
 ## STEP 4: FastAPI Apache Kafka producer
 

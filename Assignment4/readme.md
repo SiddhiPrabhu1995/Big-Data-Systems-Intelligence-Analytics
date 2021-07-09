@@ -28,6 +28,11 @@ When a consumer consumes a message it is pulling the message from a Kafka topic.
 
 ## STEP 1: Setup an Apache Kafka cluster
 
+Change the KAFKA_ADVERTISED_HOST_NAME in the docker-compose.yaml and create a blank .env file in geostream folder.
+
+![image](https://user-images.githubusercontent.com/57429405/125013891-9fe14e00-e03a-11eb-9fdd-7cd5da7bfe7d.png)
+
+
 ## STEP 2: Run docker and use cmd to run the following command
 
 This command would help spin up multiple docker containers for your kafka client, zookeeper, a producer and a consumer.

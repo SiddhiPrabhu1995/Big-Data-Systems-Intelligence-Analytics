@@ -1,15 +1,11 @@
 # CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master
 
-## Part 1 : ML as a service
+## Part 1 : Machine Learning as a service
 
-| NAME              |     NUID        |
-|------------------ |-----------------|
-| Samarth Hadawale  |   001053811     |
-| Shivendra Shahi   |   001393331     |
-| Siddhi Prabhu     |   001342165     |
-
-
-Assignment 2 Part 1 :
+Below are the activities covered:-
+#### Identifying and working with sensitive healthcare data with Amazon Comprehend Medical
+#### Checked Python program performance by leveraging Google Colab, Docker and Postman
+#### DataFlow De-identification pipeline - Google Cloud Platform
 
 1. Google Docs Link : https://docs.google.com/document/d/1xyNo4C4K2ylmPlk3ZPoeFgyWVN0DnnUSaAmMDiDSEK0/edit#
 

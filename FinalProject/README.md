@@ -1,4 +1,4 @@
-# CSYE7245---Team-4---Big-Data-Sys-Int-Analytics-Master
+# COURSE :- Big-Data-Systems-Intelligence-Analytics
 
 ## Final Project - Customer Interaction Sentiment Analysis 
 

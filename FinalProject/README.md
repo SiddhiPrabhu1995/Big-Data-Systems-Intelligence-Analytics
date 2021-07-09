@@ -2,13 +2,6 @@
 
 ## Final Project - Customer Interaction Sentiment Analysis 
 
-### AWS Deployment Link:
-Link: http://3.93.151.226:8000/
-
-Login Credentials to try our website:
-Username: admin
-Password: Pass@1234
-
 1. Google Docs Link : https://docs.google.com/document/d/1V85ECK5Z20Oa4dCATP8U7lRnX1kA3P4unen8w8Tfuww/edit?usp=sharing
 
 2. CLAT Document Link : https://codelabs-preview.appspot.com/?file_id=1V85ECK5Z20Oa4dCATP8U7lRnX1kA3P4unen8w8Tfuww#2

@@ -101,11 +101,7 @@ How - Implemented AWS cloud services, FastAPI, HTML/CSS/Bootstrap
 
 ### Implementation Architecture
 
-![WhatsApp Image 2020-12-18 at 12 01 23](https://user-images.githubusercontent.com/55570382/102640674-d8feb300-4128-11eb-9d24-38131cd69f2a.jpeg)
-
-### Real-Time Sentiment Analysis Architecture
-
-![WhatsApp Image 2020-12-18 at 02 36 04](https://user-images.githubusercontent.com/55570382/102640706-e9af2900-4128-11eb-8509-8ef77db03a83.jpeg)
+![AWSFinalProject](https://user-images.githubusercontent.com/57429405/125552234-96bf5658-e82d-4a14-ae7d-b039e8647967.png)
 
 ### Use Cases
 

@@ -101,7 +101,7 @@ How - Implemented AWS cloud services, FastAPI, HTML/CSS/Bootstrap
 
 ### Implementation Architecture
 
-![AWSFinalProject](https://user-images.githubusercontent.com/57429405/125552234-96bf5658-e82d-4a14-ae7d-b039e8647967.png)
+![AWSFinalProject](https://user-images.githubusercontent.com/57429405/125552504-aac49697-8dec-4e38-a4f3-b4514108df04.png)
 
 ### Use Cases
 
